@@ -1,19 +1,30 @@
 // post Reference_Text_Arc code here
-size(300,300);
-background(13, 226, 59);
+void setup() {
+  size(600,500);
+  textAlign(CENTER);
+  frameRate(10);
+}
+
+void draw(){
+  background(250, random(75,150),244);
+  
+  //cool
+  textSize(80);
+  fill(227,242,130);
+  text("w c w",300,150);
+
+//wow
+textSize(60);
+fill(255);
+text("c o o l", 300,200);
+
+// cool
+textSize(80);
+fill(227,242,130);
+text("w c w", 300, 250);
 
 noFill();
-strokeWeight(15);
-arc(90,90,60,60,radians (0),radians(180));
-
-stroke(0,200,0);
-strokeWeight(10);
-arc(150,150,80,80,radians(0),radians(270));
-
-stroke(0,0,255);
-strokeWeight(5);
-arc(200,200,50,50,radians(180),radians (270));
-
-stroke(214,150,15);
-strokeWeight(3);
-arc(300,90,80,80,radians(190),radians(250));
+stroke(227,242,130);
+strokeWeight(8);
+arc(mouseX-170,mouseY-140,32,35,radians(-90),radians(90));
+arc(mouseX-170,mouseY-40,32,35,radians(-90),radians(90));
