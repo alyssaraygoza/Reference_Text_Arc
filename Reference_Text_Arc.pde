@@ -29,5 +29,5 @@ strokeWeight(8);
 arc(mouseX-170,mouseY-140,32,35,radians(-90),radians(90));
 arc(mouseX-170,mouseY-40,32,35,radians(-90),radians(90));
 
-save("REFERENCE.TExt.ARC");
+
 }
